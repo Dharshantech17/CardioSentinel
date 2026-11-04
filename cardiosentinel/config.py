@@ -74,3 +74,4 @@ LOINC_CODES = {
     "R_R_INTERVAL": "8627-2",        # R-R interval
     "SIGNAL_QUALITY": "93041-2"      # ECG signal quality score
 }
+

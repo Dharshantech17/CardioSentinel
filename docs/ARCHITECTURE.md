@@ -112,3 +112,4 @@ $$\mathcal{L}(\boldsymbol{\alpha}) = \sum_{k=1}^K y_k \left[ \psi(S) - \psi(\alp
 - **ANSI/AAMI EC57:** Testing and reporting performance results of cardiac rhythm and ST-segment measurement algorithms.
 - **IEC 60601-2-47:** Particular requirements for basic safety and essential performance of ambulatory electrocardiographic systems.
 - **HL7 FHIR Release 4:** Interoperable clinical data encoding with official LOINC codes.
+

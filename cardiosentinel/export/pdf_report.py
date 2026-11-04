@@ -220,3 +220,4 @@ class ClinicalReportGenerator:
 
         doc.build(story)
         return output_filepath
+

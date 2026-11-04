@@ -150,3 +150,4 @@ class CardioSentinelClassifier(nn.Module):
                 "probabilities": prob_distribution,
                 "dirichlet_alphas": [round(float(a), 3) for a in alpha_arr]
             }
+

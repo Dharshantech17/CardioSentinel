@@ -104,3 +104,4 @@ class ECGPreprocessor:
         # 3. Robust normalize
         normalized = self.normalize(filtered, method="robust")
         return filtered, normalized
+

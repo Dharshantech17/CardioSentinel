@@ -108,3 +108,4 @@ class HamiltonDetector:
                 aligned_peaks.append(local_idx)
 
         return np.unique(aligned_peaks).astype(int)
+

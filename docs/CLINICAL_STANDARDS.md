@@ -43,3 +43,4 @@ Telemetry results and diagnostic findings are serialized as standard HL7 FHIR `O
 | **R-R Interval** | `8627-2` | R-R interval | milliseconds (`ms`) |
 | **ECG Impression** | `131383` | Electrocardiogram impression | text string |
 | **Signal Quality Score** | `93041-2` | ECG signal quality score | unitless score (`0.0 - 1.0`) |
+

@@ -91,3 +91,4 @@ class EvidentialLoss(nn.Module):
 
         total_loss = torch.mean(loss_ce + self.kl_weight * kl_div)
         return total_loss
+

@@ -80,3 +80,4 @@ def run_benchmark(n_trials: int = 100):
 
 if __name__ == "__main__":
     run_benchmark(n_trials=50)
+

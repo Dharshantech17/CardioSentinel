@@ -114,3 +114,4 @@ def train_and_save_weights(epochs: int = 15, batch_size: int = 16):
 
 if __name__ == "__main__":
     train_and_save_weights(epochs=15)
+

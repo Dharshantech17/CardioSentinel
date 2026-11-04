@@ -53,3 +53,4 @@ class PhysioNetLoader:
         from scipy.signal import resample
         target_len = int(len(signal) * target_fs / orig_fs)
         return resample(signal, target_len)
+

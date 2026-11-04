@@ -267,3 +267,4 @@ Developed for the **TECHgium MedTech Innovation Challenge** (Challenge Statement
 
 ---
 *For clinical evaluation or inquiries, please refer to [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and [docs/CLINICAL_STANDARDS.md](docs/CLINICAL_STANDARDS.md).*
+

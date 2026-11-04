@@ -370,3 +370,4 @@ class ECGSynthesizer:
             "lead_off": False
         })
         return noisy_signal, noise_info
+

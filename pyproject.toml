@@ -31,3 +31,4 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/cardiosentinel/cardiosentinel"
 "Bug Tracker" = "https://github.com/cardiosentinel/cardiosentinel/issues"
+
