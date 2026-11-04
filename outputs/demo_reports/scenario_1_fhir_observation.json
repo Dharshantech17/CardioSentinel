@@ -1,0 +1,105 @@
+{
+  "resourceType": "Observation",
+  "id": "f888e0e3-6938-4763-9090-70be74c6f481",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "131383",
+        "display": "Electrocardiogram impression"
+      }
+    ],
+    "text": "CardioSentinel Leadless Wearable Arrhythmia Analysis"
+  },
+  "subject": {
+    "reference": "Patient/PT-DEMO-001",
+    "display": "Patient Cohort #1"
+  },
+  "effectiveDateTime": "2026-11-03T12:36:53.200595+00:00",
+  "issued": "2026-11-03T12:36:53.200595+00:00",
+  "device": {
+    "display": "Wearable Leadless Patch Sensor (CardioSentinel-Patch-v1)"
+  },
+  "valueString": "Normal Sinus Rhythm (NSR)",
+  "interpretation": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "NORMAL",
+          "display": "Clinical Severity: NORMAL"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "Gatekeeper Decision: ACCEPT. Triage: CONFIRMED_ALGORITHM_SCREENING."
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 69.2,
+        "unit": "beats/minute",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "93041-2",
+            "display": "ECG signal quality score"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 0.987,
+        "unit": "score",
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "https://cardiosentinel.ai/fhir/codes",
+            "code": "EVIDENTIAL_UNCERTAINTY",
+            "display": "Dirichlet Epistemic Uncertainty"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 0.2233,
+        "unit": "uncertainty",
+        "system": "http://unitsofmeasure.org",
+        "code": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cardiosentinel"
+version = "1.0.0"
+authors = [
+  { name="CardioSentinel Team", email="team@cardiosentinel.ai" },
+]
+description = "Edge-Aware Leadless Rhythm Monitor with Dynamic SQI Assessment and Uncertainty-Calibrated Arrhythmia Screening"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Intended Audience :: Healthcare Industry",
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "torch>=2.0.0",
+    "pandas>=2.0.0",
+    "plotly>=5.15.0",
+    "streamlit>=1.25.0",
+    "reportlab>=4.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cardiosentinel/cardiosentinel"
+"Bug Tracker" = "https://github.com/cardiosentinel/cardiosentinel/issues"
